@@ -30,7 +30,9 @@ section#login {
     width:250px;
     height:500px;
     border-radius:20px;
-    box-shadow: 1px 1px 10px rgba(0,0,0,0.5);;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
@@ -46,15 +48,21 @@ section#login > div#formulario {
     padding:5px;
 }
 button {
+    display: block;
     transition-duration: 0.3s;
     padding: 5px;
     border-radius: 10px;
-    margin-top:45px;
-    float: right;
+    margin:auto;
+    width: 223px;
+    margin-top: 10px;
+    padding: 5px;
 }
 button:hover {
     cursor: pointer;
     transform: scale(1.1);
     background-color: #067f71;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+#formulario > h1 {
+    text-align: center;
 }
