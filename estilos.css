@@ -69,12 +69,14 @@ div.campo > i {
 }
 div.campo > input {
     font-size: 1em;
-    width:calc(100% - 45px);
+    width:calc(100% - 44.5px);
     height:100%;
     transform: translateY(-17px);
+    transform: translateZ(-);
     border:none;
     border-radius: 7px;
     padding:4px;
+    padding-right:1px;
 }
 
 div#formulario > h1 {
