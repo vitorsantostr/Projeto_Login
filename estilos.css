@@ -10,7 +10,7 @@
 body, html {
     width: 100vw;
     height:100vh;
-    background-color: #277169;
+    background-color: #3d54a0;
     color: #333;
     line-height: 1.6;
 }
@@ -37,7 +37,7 @@ section#login {
 
 section#login > div#imagem {
     display: block;
-    background-image: url(imagens/papeldeparede.jpg);
+    background-image: url(imagens/colorida.jpg);
     background-size:cover;
     height: 200px;
     background-position:center right;
