@@ -52,8 +52,8 @@
     height: 100%;
     transform: translateY(-17px);
     border: none;
-    border-radius: 7px;
-    padding: 3px;
+    border-radius: 20px 7px 7px 20px;
+    padding: 4px;
     }
 }
 
@@ -94,7 +94,7 @@
     height: 100%;
     transform: translateY(-17px);
     border: none;
-    border-radius: 7px;
-    padding: 3px;
+    border-radius: 20px 7px 7px 20px;
+    padding: 4px;
     }
 }
