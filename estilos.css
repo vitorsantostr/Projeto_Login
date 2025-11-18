@@ -70,7 +70,7 @@ div.campo > input {
     font-size: 1em;
     width:calc(100% - 44.5px);
     height:100%;
-    transform: translateY(-17px);
+    transform: translateY(-16px);
     border:none;
     border-radius: 7px;
     padding:3px;
